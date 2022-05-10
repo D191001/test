@@ -1,0 +1,17 @@
+<form method="post" action="mail.php">
+
+
+<input name="name" type="text" value="Имя*:" onblur="if(this.value=='') this.value='Имя*:';" onfocus="if(this.value=='Имя*:') this.value='';" size="30" maxlength="60">
+<input name="email" type="text" value="Email:" onblur="if(this.value=='') this.value='Email:';" onfocus="if(this.value=='Email:') this.value='';" size="30" maxlength="60">
+
+<input name="sub" type="text" value="Тема:" onblur="if(this.value=='') this.value='Тема:';" onfocus="if(this.value=='Тема:') this.value='';" size="30" maxlength="60">
+<input name="phone" type="text" value="Телефон:" onblur="if(this.value=='') this.value='Телефон:';" onfocus="if(this.value=='Телефон:') this.value='';" size="30" maxlength="60">
+
+
+<textarea name="body" rows="8" cols="50"></textarea>
+
+<input type="submit" value="Отправить">
+<input type="reset" value="Очистить">
+
+
+</form>
